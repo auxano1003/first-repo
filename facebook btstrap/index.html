@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <section style="height: 650px;" class="w-100 d-flex align-items-center justify-content-evenly bg bg-body-secondary border-1">
+        <div class="align-items-center justify-content-center p-5 w-50">
+            <h2 class="text-primary fs-1 fw-bolder">Facebook</h2>
+            <h2 class="fs-9 fw-lighter">Facebook helps you connect and share <br> with the people in your life.</h2>
+        </div>
+        <div class="d-block  border border-2 rounded bg-light" style="height: 350px; width: 400px;">
+            <input type="text" name="" id="" placeholder="Email address or phone number" class=" ms-2 mt-4 border-1 rounded-2" style="height: 60px; width: 380px;">
+            <input type="password" name="" id="" placeholder="Password" class=" ms-2 mt-2 rounded-2 border-1" style="height: 60px; width: 380px;">
+            <button class="bg-primary border-0 rounded-2 mt-3 ms-2 text-bg-primary fw-bold" style="height: 50px; width: 380px;">Log in</button>
+            <span class="text-primary d-block" style="padding:10px 0 0 130px;">forgotten password</span>
+            <hr style="width:380px;" class="ms-2">
+            <!-- Button trigger modal -->
+    <button type="button" class="btn text-white fw-bold" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+        style="width: 220px; height: 50px; margin-left: 80px; background-color: #42b72a;" class="border-1 rounded-2 fw-bold text-white">
+        Create new account
+    </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header d-flex align-items-start">
+         <div class="d-block">
+            <h1 class="modal-title fs-3" id="staticBackdropLabel">Sign up</h1>
+            <p>It's quick and easy.</p>
+         </div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" class=""></button>
+        </div>
+        <div class="modal-body pt-2 w-100">
+           <div class="names d-flex w-100 ">
+            <input type="text" name="" id="" placeholder="First name"style="height: 40px;" class="mx-1 w-50">
+            <input type="text" name="" id="" placeholder="surname"style="height: 40px;"class="mx-1 w-50">
+           </div><br>
+            <input type="tel" name="" id="" placeholder="mobile number or email address" class="w-100" style="height: 40px;"><br><br>
+            <input type="password" name="" id="" placeholder="new password" class="w-100"style="height: 40px;">
+            <span class="ps-2">date of birth?</span> <br>
+         <div class="select d-flex flex-row w-100 justify-content-between" >
+         <select  required name="" id="" class="mx-1 w-25 rounded-2 border border-1 mt-1"> 
+             <option value="15">15</option>
+             <option value="15">15</option>
+             <option value="15">15</option>
+             <option value="15">15</option>
+             <option value="15">15</option>
+             <option value="15">15</option>
+             <option value="15">15</option>
+             <option value="15">15</option>
+        </select>
+        <select name="" id="" class="mx-1 w-25 rounded-2 border border-1">
+            <option value="january">january</option>
+            <option value="january">january</option>
+            <option value="january">january</option>
+            <option value="january">january</option>
+            <option value="january">january</option>
+            <option value="january">january</option>
+            <option value="january">january</option>
+            <option value="january">january</option>
+            <option value="january">january</option>
+            <option value="january">january</option>
+            <option value="january">january</option>
+            <option value="january">january</option>
+        </select>
+        <select name="" id=""class="mx-1 w-25 rounded-2 border border-1" >
+            <option value="1990">1990</option>
+            <option value="1990">1990</option>
+            <option value="1990">1990</option>
+            <option value="1990">1990</option>
+            <option value="1990">1990</option>
+            <option value="1990">1990</option>
+            <option value="1990">1990</option>
+            <option value="1990">1990</option>
+            <option value="1990">1990</option>
+            <option value="1990">1990</option>
+            <option value="1990">1990</option>
+        </select>
+        </div>
+        </div>
+        <span class="ps-4">Gender?</span>
+        <div class="bigradio d-flex w-100 border border-0 justify-content-evenly "style="height: 40px;">
+            <div class="radio w-25 border border-2 d-flex justify-content-evenly rounded-2 align-items-center fs-5"><input type="radio" name="" id="">Female</div>
+            <div class="radio w-25 border border-2 d-flex justify-content-evenly rounded-2 rounded-2 align-items-center fs-5"><input type="radio" name="" id="">Male</div>
+            <div class="radio w-25 border border-2 d-flex justify-content-evenly rounded-2 rounded-2 align-items-center fs-5"><input type="radio" name="" id="">Custom</div>
+        </div>
+      
+        <div class="modal-footer">
+            <p class="end" style="font-size: 12px;margin-right: auto;">People who use our service may have uploaded your contact information to facebook. <span class="text-primary">learn more</span></p>
+            <p class="end" style="font-size: 12px; margin-right: auto;">By clicking Sign Up, you agree to our <span class="text-primary">Terms, Privacy Policy</span> and <span class="text-primary">Cookies policy.</span> <br>You may receive SMS notifications from us and can opt out at any time.</p>
+           <button type="button" class="w-25 text-white border border-0 pt-1 ps-1 rounded-2 fs-5 fw-bold mt-2" data-bs-dismiss="modal" style="background-color: #42b72a; margin:auto">Sign up</button>
+          <!--<button type="button" class="btn btn-primary">Understood</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+        </div>
+    </section>
+</body>
+<script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</html>

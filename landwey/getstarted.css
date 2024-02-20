@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f3f3f3;
+}
+section {
+    width: 90%;
+    height: 550vh;
+    background-color: #fff;
+    /* border: 1px solid black; */
+    margin: auto;
+}
+nav {
+    width: 90%;
+    height: 105px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+nav img {
+    width: 160px;
+    margin-top: 25px;
+    height: 40px;
+}
+ul {
+    width: 350px;
+    height: 40px;
+    /* border: 1px solid red; */
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 15px;
+}
+li {
+    list-style-type: none;
+
+}
+li a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.8);
+    font-size: 13px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+/* the header styling starts here */
+header {
+    width: 90%;
+    height: 300px;
+    border-bottom: 1px solid black;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bold {
+    font-size: 58px;
+    /* border: 1px solid black; */
+    /* margin-bottom: 20px; */
+}
+.lowkey {
+    /* border: 1px solid black; */
+    margin-top: 15px;
+    padding-top: 60px;
+    font-size: 18px;
+    color: rgba(0,0,0,0.5);
+    word-spacing: 3px;
+    line-height: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+/* the main styling starts here */
+main {
+    width: 90%;
+    height: 480px;
+    /* border: 2px solid red; */
+    margin: 50px auto;
+} 
+.twinTower {
+    width: 100%;
+    height: inherit;
+    /* border: 2px solid blue; */
+    display: flex;
+    padding-top: 40px;
+}
+.taiwo{
+    width: 60%;
+    height: 380px;
+    /* border: 1px solid black; */
+    
+}
+.taiwo img {
+    width: 100%;
+    height: inherit;
+}
+.kenny {
+    width: 40%;
+    height: 450px;
+    background-color: #f2f2f2;
+}
+.nowselling {
+    width: 130px;
+    height: 30px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    margin: 20px 80px;
+}
+.Lakowe{
+    margin: 10px 80px;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+.lak {
+    margin: 10px 80px;
+    font-size: 24px;
+    color: rgba(0,0,0,0.8);
+    font-weight: lighter;
+}
+.intro {
+    margin: 20px 80px;
+    font-size: 20px;
+}
+.view {
+    width: 180px;
+    height: 50px;
+    color: #fff;
+    background-color: #000;
+    margin: 20px 80px;
+    border: none;
+}
+
+article {
+    width: 90%;
+    height: 450px;
+    /* border: 2px solid black; */
+    margin: auto;
+}
+aside {
+    width: 90%;
+    height: 450px;
+    /* border: 2px solid black; */
+    margin: 80px auto;
+}
+
+footer {
+    width: 90%;
+    height: 450px;
+    /* border: 2px solid black; */
+    margin: auto;
+}
+.base {
+    width: 90%;
+    height: 500px;
+    margin: 50px auto;
+    /* border: 2px solid black; */
+    background-color: #000;
+    color: #fff;
+}
+.holder {
+    width: auto;
+    height: inherit;
+    /* border: 3px solid green; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5rem;
+}
+.hold {
+    width: 20%;
+    height: 200px;
+    /* border: 2px solid red; */
+
+}
+
+.hold p a{
+    color: grey;
+    text-decoration: none;
+    padding-top: 20px;
+}
